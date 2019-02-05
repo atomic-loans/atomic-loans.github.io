@@ -47,9 +47,12 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
+.slight-bold {
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .loan-chooser {
@@ -167,6 +170,10 @@ a {
   }
 }
 
+.scroll-down {
+  cursor: pointer;
+}
+
 .padding {
   padding: 13px;
 }
@@ -195,13 +202,6 @@ a {
   }
 }
 
-.slight-bold {
-  font-weight: 500;
-}
-
-.text-center {
-  text-align: center;
-}
 
 .btn-lg {
   font-weight: 400;
@@ -481,8 +481,4 @@ footer {
   .full-width-sm {
     width: 100% !important;
   }
-}
-
-.scroll-down {
-  cursor: pointer;
 }
