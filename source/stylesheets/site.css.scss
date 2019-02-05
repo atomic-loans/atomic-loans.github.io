@@ -167,6 +167,10 @@ a {
   }
 }
 
+.scroll-down {
+  cursor: pointer;
+}
+
 .padding {
   padding: 13px;
 }
@@ -481,8 +485,4 @@ footer {
   .full-width-sm {
     width: 100% !important;
   }
-}
-
-.scroll-down {
-  cursor: pointer;
 }
