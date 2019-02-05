@@ -5,6 +5,11 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+activate :gh_pages do |gh_pages|
+  gh_pages.remote = 'git@github.com:atomic-loans/atomic-loans.github.io.git'
+  gh_pages.branch = 'master'
+end
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
