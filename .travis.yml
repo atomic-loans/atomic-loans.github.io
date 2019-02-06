@@ -2,7 +2,7 @@ addons:
   ssh_known_hosts:
     - atomicloans.io
 rvm:
-  - 2.3.1
+  - 2.4.0
 branches:
   only:
     - master
