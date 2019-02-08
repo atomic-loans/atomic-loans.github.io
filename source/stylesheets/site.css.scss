@@ -21,12 +21,12 @@ h2 {
 
 h3 {
   font-weight: 400;
-  font-size: 1.85rem;
+  font-size: 2.15rem;
 }
 
 h4 {
   font-weight: 400;
-  line-height: 1.9rem;
+  line-height: 2rem;
 }
 
 p {
@@ -112,6 +112,10 @@ a {
   border-radius: 0;
 }
 
+.more-border-radius {
+  border-radius: 2rem;
+}
+
 .loan-amount {
   padding: 0 !important;
   font-size: 1.2rem !important;
@@ -151,6 +155,11 @@ a {
   padding: .375rem 2rem;
 }
 
+.btn-early-access {
+  font-size: 1rem;
+  padding: 1rem 2rem;
+}
+
 .form-control {
   font-weight: 500;
   font-size: 0.8rem;
@@ -172,6 +181,10 @@ a {
 
 .scroll-down {
   cursor: pointer;
+}
+
+.padding-sm {
+  padding: 8px;
 }
 
 .padding {
@@ -202,6 +215,21 @@ a {
   }
 }
 
+.miner-problem-section {
+  p {
+    margin-left: -15px;
+    padding-top: 10px;
+    padding-right: 35px;
+  }
+}
+
+.investor-problem-section {
+  // p {
+  //   margin-left: -15px;
+  //   padding-top: 10px;
+  //   padding-right: 35px;
+  // }
+}
 
 .btn-lg {
   font-weight: 400;
@@ -228,8 +256,16 @@ a {
   margin-top: 20px;
 }
 
+.margin-top-md {
+  margin-top: 30px;
+}
+
 .padding-top {
-  padding-top: 20px;
+  padding-top: 30px;
+}
+
+.padding-top-md {
+  padding-top: 40px;
 }
 
 .margin-top {
@@ -348,12 +384,20 @@ a {
   width: 100%;
 }
 
+.weight-300 {
+  font-weight: 300;
+}
+
 .weight-500 {
   font-weight: 500;
 }
 
 .padded-width {
-  padding: 0px 72px;
+  padding: 0px 60px;
+}
+
+.padded-width-md {
+  padding: 0px 40px;
 }
 
 .padded-width-sm {
@@ -399,12 +443,29 @@ a {
 }
 
 .dark-theme {
-  background-color: #2F3E49;
+  background-color: #2a3238;
 }
 
+.dark-theme-alt {
+  background-color: #30363c;
+}
 
+.split-theme {
+  background-color: #262f36;
+  background-image: -webkit-linear-gradient(10deg, #262f36 50%, #30363c 50%);
+  font-weight: 300;
+  font-size: 1.1rem;
+  h3 {
+    font-size: 2.15rem;
+  }
+}
 
-
+.features-section {
+  p {
+    font-weight: 300;
+    font-size: 1.2rem;
+  }
+}
 
 
 footer {
@@ -475,10 +536,39 @@ footer {
   .margin-top-lg-device-lg {
     margin-top: 100px;
   }
+
+  .percentage-img {
+    margin-top: -20px;
+  }
 }
 
 @media (max-width:767px) {
   .full-width-sm {
     width: 100% !important;
+  }
+
+  .margin-top-device-sm {
+    margin-top: 30px;
+  }
+
+  .margin-top-lg-device-sm {
+    margin-top: 70px;
+  }
+
+  .padding-device-sm {
+    padding: 30px;
+  }
+
+  .padding-width-lg-device-sm {
+    padding: 0 70px;
+  }
+
+  .padding-width-xl-device-sm {
+    padding: 0 100px;
+  }
+
+  .split-theme {
+    background-color: #262f36;
+    background-image: -webkit-linear-gradient(10deg, #262f36 50%, #262f36 50%);
   }
 }

@@ -9,11 +9,11 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item <%= nav_active('about') %>">
-          <%= link_to 'Project', '/wip/', class: 'nav-link' %>
-        </li>
         <li class="nav-item <%= nav_active('faq') %>">
           <%= link_to 'Paper', 'https://arxiv.org/abs/1901.05117', class: 'nav-link', target: :_blank %>
+        </li>
+        <li class="nav-item <%= nav_active('about') %>">
+          <%= link_to 'Community', '/wip/', class: 'nav-link' %>
         </li>
         <li class="nav-item">
           <%= link_to 'Blog', 'https://medium.com/atomic-loans', class: 'nav-link' %>
