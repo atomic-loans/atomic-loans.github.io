@@ -1,15 +1,5 @@
-// This is where it all goes :)
 $(document).ready(function() {
-  $(".borrow-stablecoin").click(function() {
-    $('.borrow-stablecoin').removeClass('active');
-    $(this).addClass("active");
-  });
-
-  $(".borrow-collateral").click(function() {
-    $('.borrow-collateral').removeClass('active');
-    $(this).addClass("active");
-  });
-
+  
   updateCollateral();
 
   setTimeout(updateLoan, 1500);
