@@ -7,7 +7,7 @@ body {
 
 .theme {
   color: #B868D9;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h1 {
@@ -17,6 +17,10 @@ h1 {
 h2 {
   font-weight: 400;
   font-size: 2.5rem;
+}
+
+#big-text {
+  font-weight: 300;
 }
 
 h3 {
@@ -146,7 +150,7 @@ a {
   padding: .5rem 1rem;
   background-color: #9B59B6;
   border-color: #9B59B6;
-  font-weight: 600;
+  font-weight: 500;
 
   &:hover {
     background-color: #804399;
@@ -232,16 +236,16 @@ a {
   p {
     margin-left: -15px;
     padding-top: 10px;
-    padding-right: 35px;
+    padding-right: 60px;
   }
 }
 
 .investor-problem-section {
-  // p {
+  p {
   //   margin-left: -15px;
   //   padding-top: 10px;
-  //   padding-right: 35px;
-  // }
+    padding-right: 0px;
+  }
 }
 
 .btn-lg {
@@ -597,4 +601,22 @@ footer {
     background-color: #262f36;
     background-image: -webkit-linear-gradient(10deg, #262f36 50%, #262f36 50%);
   }
+
+  .miner-problem-section {
+    p {
+      padding-right: 0;
+      text-align: center;
+    }
+  }
+
+  .investor-problem-section {
+  p {
+    text-align: center;
+  }
+}
+}
+
+#key-icon {
+  max-width: 34%;
+  height: auto;
 }
