@@ -83,7 +83,7 @@ GEM
       activesupport (>= 3.1)
     parallel (1.13.0)
     public_suffix (3.0.3)
-    puma (2.16.0)
+    puma (3.12.2)
     rack (2.0.6)
     rake (10.5.0)
     rb-fsevent (0.10.3)
@@ -110,7 +110,7 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-gh_pages
-  puma (~> 2.7)
+  puma (~> 3.12)
   rake (~> 10.1)
   tzinfo-data
   wdm (~> 0.1)
