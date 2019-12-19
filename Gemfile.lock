@@ -84,7 +84,7 @@ GEM
     parallel (1.13.0)
     public_suffix (3.0.3)
     puma (2.16.0)
-    rack (2.0.6)
+    rack (2.0.8)
     rake (10.5.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
