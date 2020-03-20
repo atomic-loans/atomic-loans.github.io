@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Dai/Circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dai/Circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,0 C7.16190476,0 0,7.16190476 0,16 C0,24.8380953 7.16190476,32 16,32 C24.8380953,32 32,24.8380953 32,16 C32,7.16190476 24.8380953,0 16,0 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M15.9464885,7.31620804 L24.686055,16.0557745 L16.0441402,24.6976893 L7.30457375,15.9581228 L15.9464885,7.31620804 Z M18.4783835,16.0208992 L22.2029866,16.0418246 L15.9604391,9.79927708 L9.78764287,15.9720733 L13.512246,15.9929987 L15.9813645,13.5238802 L18.4783835,16.0208992 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>
